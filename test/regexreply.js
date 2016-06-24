@@ -77,7 +77,7 @@ describe("Regex Reply Parse", function() {
 
   var itor = function(item, next) {
     it("Test '" + item.test + "' '" + item.input + "' should be " + (item.assert === false ?  "false" : "true"), function(done){
-      rxreply.parse(item.input, {}, function(regexp) {
+      rxreply.parse(item.input, function(regexp) {
         debug(regexp);
         var pattern = new RegExp("^" + regexp + "$", "i");
 

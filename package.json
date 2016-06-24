@@ -22,7 +22,6 @@
     "lodash": "^4.11.1",
     "natural": "^0.4.0",
     "node-normalizer": "^0.1.4",
-    "sfacts": "^0.2.0",
     "wordnet": "^0.1.2"
   },
   "devDependencies": {
